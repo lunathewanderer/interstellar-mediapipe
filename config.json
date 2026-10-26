@@ -1,0 +1,57 @@
+{
+  "camera": {"index": 0, "width": 1280, "height": 720, "fps": 30, "mirror": true},
+  "model": "models/hand_landmarker.task",
+  "tracking": {"detection_confidence": 0.55, "presence_confidence": 0.55, "tracking_confidence": 0.5, "inference_width": 768, "swap_handedness": false, "latest_frame_capture": true},
+  "gestures": {
+    "center_mode": "palm",
+    "pinch_enter": 0.30,
+    "pinch_exit": 0.46,
+    "pinch_dwell_seconds": 0.075,
+    "smoothing_seconds": 0.085,
+    "velocity_smoothing_seconds": 0.13,
+    "lost_hold_seconds": 0.20,
+    "lost_fade_seconds": 0.65,
+    "identity_hold_seconds": 0.6,
+    "two_hand_reference_distance": 0.45,
+    "min_scale": 0.45,
+    "max_scale": 2.2,
+    "sensitivity": 1.0,
+    "momentum": 0.035,
+    "adaptive_min_cutoff": 1.5,
+    "adaptive_beta": 8.0
+  },
+  "snap": {
+    "enabled": true,
+    "contact_ratio": 0.34,
+    "release_ratio": 0.70,
+    "contact_dwell_seconds": 0.055,
+    "release_window_seconds": 0.20,
+    "minimum_release_speed": 3.0,
+    "minimum_finger_travel": 0.32,
+    "cooldown_seconds": 0.75
+  },
+  "visual": {
+    "quality": "high",
+    "stage": 4,
+    "galaxy_radius": 0.29,
+    "flattening": 0.48,
+    "pinched_radius_multiplier": 0.12,
+    "color": [0.85, 0.91, 1.0],
+    "exposure": 1.35,
+    "glow": 0.75,
+    "glow_radius_pixels": 6.0,
+    "trail_seconds": 0.16,
+    "orbit_count": 7,
+    "orbit_brightness": 0.18,
+    "star_size_pixels": 0.95,
+    "rotation_speed": 0.12,
+    "camera_brightness": 0.65,
+    "nebula_brightness": 0.30,
+    "filament_brightness": 0.55
+  },
+  "quality_presets": {
+    "low": {"width": 640, "height": 360, "particle_count": 1800, "layers": 1},
+    "medium": {"width": 960, "height": 540, "particle_count": 6000, "layers": 2},
+    "high": {"width": 1280, "height": 720, "particle_count": 12000, "layers": 3}
+  }
+}

@@ -1,0 +1,35 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded models and installers
+models/*.task
+models/*.download
+installers/
+
+# Generated local TouchDesigner documents and runtime data
+*.toe
+*.toe.*
+*.tox
+runtime/
+test-output/
+Backup/
+
+# Local reports, archives, and recordings
+report/
+*.zip
+*.mp4
+*.avi
+*.mov
+
+# Local secrets and editor/system settings
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
