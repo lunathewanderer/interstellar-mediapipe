@@ -30,7 +30,7 @@ def refresh(folder, lookup, auto_start=False):
     if missing:
         raise RuntimeError('Incomplete project; use CreateProject.bat. Missing: '+', '.join(missing))
     if type(base.op('final_composite')).__name__!='glslmultiTOP':
-        raise RuntimeError('Run touchdesigner/repair_composite.py first; four inputs require GLSL Multi TOP.')
+        raise RuntimeError('Rebuild with CreateProject.bat; the four-input compositor requires GLSL Multi TOP.')
     sources={name:(root/relative).read_text(encoding='utf-8') for name,relative in paths.items()}
     for name,relative in paths.items():
         if relative.endswith('.py'):

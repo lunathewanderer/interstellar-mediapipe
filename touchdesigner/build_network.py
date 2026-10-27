@@ -1,7 +1,7 @@
-"""Run INSIDE TouchDesigner Textport. See docs/TOUCHDESIGNER.md.
+"""Build the visual network inside TouchDesigner Textport.
 
-Set project_dir to the extracted GalaxyHands folder before executing this file.
-No .toe is claimed to have been generated or verified outside TouchDesigner.
+CreateProject.bat copies the bootstrap command for the current project folder.
+See README.md for installation and saving GalaxyHands.toe.
 """
 from pathlib import Path
 
@@ -34,7 +34,7 @@ page.appendStr('Projectdir', label='Project directory')[0].val = str(root)
 def setpar(node, name, value):
     par = getattr(node.par, name, None)
     if par is None:
-        raise RuntimeError(f'{node.path}: required parameter {name} is missing. See manual build instructions.')
+        raise RuntimeError(f'{node.path}: required parameter {name} is missing. Check the TouchDesigner version in README.md.')
     par.val = value
 
 

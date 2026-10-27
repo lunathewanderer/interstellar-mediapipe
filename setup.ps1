@@ -19,7 +19,7 @@ if ($LASTEXITCODE -ne 0) { throw 'The project requires a 64-bit Python 3.12 envi
 & $projectPython -m pip install pip==25.3
 if ($LASTEXITCODE -ne 0) { throw 'pip installation failed. Check Internet access.' }
 & $projectPython -m pip install -r requirements.txt
-if ($LASTEXITCODE -ne 0) { throw 'Dependency installation failed. See docs/TROUBLESHOOTING.md.' }
+if ($LASTEXITCODE -ne 0) { throw 'Dependency installation failed. See the installation section in README.md.' }
 & $projectPython -m pip check
 if ($LASTEXITCODE -ne 0) { throw 'Dependencies are inconsistent.' }
 & $projectPython tools/download_model.py
