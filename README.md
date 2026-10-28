@@ -4,18 +4,12 @@
 
 ## Demo
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=MjlHcUTJ6_g">
-    <img src="https://i.ytimg.com/vi/MjlHcUTJ6_g/maxresdefault.jpg" alt="Demo Interstellar" width="900">
-  </a>
-</p>
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=MjlHcUTJ6_g"><strong>▶ Xem demo trên YouTube</strong></a>
-</p>
+<a href="https://www.youtube.com/watch?v=MjlHcUTJ6_g"><strong> Xem demo trên YouTube</strong></a>
+
 
 ## Cài đặt và chạy
 
-**Yêu cầu:** Windows 10/11, webcam, [Python 3.12 64-bit](https://www.python.org/downloads/windows/) và [TouchDesigner 2025.33230](https://derivative.ca/download/archive). Có thể dùng TouchDesigner Non-Commercial cho bài tập phi thương mại. Cần Internet khi cài lần đầu.
+**Yêu cầu:** Windows 10/11, webcam, [Python 3.12 64-bit](https://www.python.org/downloads/windows/) và [TouchDesigner 2025.33230](https://derivative.ca/download/archive). (hoặc TouchDesigner Non-Commercial)
 
 Tải **Code → Download ZIP** rồi giải nén, hoặc dùng Git:
 
